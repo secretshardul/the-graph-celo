@@ -1,3 +1,7 @@
+# The graph build files
+build
+generated
+
 # Logs
 logs
 *.log
