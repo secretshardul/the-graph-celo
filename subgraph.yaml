@@ -8,7 +8,7 @@ dataSources:
     name: Gravity
     network: ropsten
     source:
-      address: '0x81829EBBE93Bea012dd20ecC5884264E303b28C3'
+      address: '0xB9a32F36695bc3c62641Dda1344Df8D4653776Fa'
       abi: Gravity
     mapping:
       kind: ethereum/events

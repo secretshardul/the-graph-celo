@@ -17,6 +17,7 @@ module.exports = {
         )
       },
       network_id: '3',
+      skipDryRun: true,
     },
   },
   compilers: {
