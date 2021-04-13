@@ -16,7 +16,6 @@ function getCeloProvider(network) {
 
 const alfajoresProvider = getCeloProvider('alfajores')
 const celoMainnetProvider = getCeloProvider('mainnet')
-console.log('Celo mainnet provider', celoMainnetProvider)
 
 module.exports = {
   networks: {
