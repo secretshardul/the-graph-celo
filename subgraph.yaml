@@ -1,14 +1,14 @@
 specVersion: 0.0.2
-description: Gravatar for Ethereum
-repository: https://github.com/graphprotocol/example-subgraph
+description: Gravatar contract subgraph for Celo
+repository: https://github.com/secretshardul/the-graph-celo
 schema:
   file: ./schema.graphql
 dataSources:
   - kind: ethereum/contract
     name: Gravity
-    network: ropsten
+    network: celo
     source:
-      address: '0xB9a32F36695bc3c62641Dda1344Df8D4653776Fa'
+      address: '0x56d04968f959ae609a32c8eadb8cd3db90490a7f' # Deployed contract address
       abi: Gravity
     mapping:
       kind: ethereum/events
