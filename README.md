@@ -280,7 +280,8 @@ You will get a result similar to
                 port: 9545,
                 network_id: '*',
             },
-            alfajores: { // Not yet supported by The Graph
+            // Change network to celo-alfajores in subgraph.yaml for testnet support
+            celo-alfajores: {
                 provider: alfajoresProvider,
                 network_id: '44787',
                 skipDryRun: true,
@@ -320,9 +321,8 @@ You will get a result similar to
 
 ## 5. Caveats and considerations
 
-1. Alfajores and Baklava testnets are currently unsupported by The Graph. Use Ropsten or Rinkeby for test purposes.
-2. Deployed subgraphs can't be renamed or deleted, although they can be updated.
-3. Subgraphs only support reads/queries. You can't send transactions to update the blockchain state.
+1. Deployed subgraphs can't be renamed or deleted, although they can be updated.
+2. Subgraphs only support reads/queries. You can't send transactions to update the blockchain state.
 
 ## 6. Futher reading
 - [The Graph documentation](https://thegraph.com/docs/)
